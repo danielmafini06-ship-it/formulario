@@ -17,6 +17,7 @@
                     <img src="assets/icons/arrow-left-02.svg" alt="Ícone para esquerda">
                     <span>Voltar</span>
                 </div>
+
                 <h1>Formulário de Matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã. </p>
 
@@ -58,9 +59,45 @@
                         </div>
 
                     </fieldset>
+
+                    <fieldset class="address">
+                        <legend>Endereço Residencial</legend>
+
+                        <div class="input-wrapper flex-2">
+                            <label for="cep">CEP</label>
+                            <input id="cep" type="text" name="nome" placeholder="99999-999">
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="street">Nome Completo</label>
+                                <input id="street" type="text" name="rua" value="Rua das Flores" disabled>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="number">Número</label>
+                                <input id="number" type="number" name="rua">
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="city">Cidade</label>
+                                <input id="city" type="text" name="cidade" value="São Paulo" disabled>
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="state">Estado</label>
+                                <input id="state" type="text" name="estado" value="SP" disabled>
+                            </div>
+                        </div>
+
+                    </fieldset>
                 </form>
+
             </div>
         </main>
+
         <aside>
              <div class="aside-container">
                 <header>
